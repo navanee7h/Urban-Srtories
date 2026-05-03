@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router';
-import { Wind, Feather, Sparkles, ArrowRight } from 'lucide-react';
+import { Shirt, Globe, Sparkles, ArrowRight, Palette } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ProductCard from '../components/ProductCard';
@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      
+
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative h-[85vh] md:h-[90vh] flex items-center justify-center overflow-hidden">
@@ -36,13 +36,13 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/40 to-transparent" />
           </div>
-          
+
           <div className="relative z-10 text-center px-4 max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight text-foreground font-semibold">
-              Breathable Luxury.<br />Crafted in Linen.
+              Shirts That Tell<br />Your Story.
             </h1>
             <p className="text-base md:text-lg text-foreground/90 font-medium mb-8 max-w-xl mx-auto">
-              Premium men's linen shirts designed for comfort, elegance, and warm climates.
+              Premium men's shirts in linen, cotton &amp; imported fabrics — crafted for comfort, style, and every occasion.
             </p>
             <Link to="/shop">
               <Button size="lg" className="px-8 py-6 text-base">
@@ -61,7 +61,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl mb-4">Featured Collection</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Discover our signature linen shirts, crafted with premium fabrics for timeless style.
+              Discover our bestselling shirts in linen, imported cotton, and premium blends — designed for the modern man.
             </p>
           </div>
 
@@ -88,47 +88,47 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Why Linen Section */}
+        {/* Why Urban Stories Section */}
         <section className="bg-muted py-16 md:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl mb-4">Why Linen?</h2>
+              <h2 className="text-3xl md:text-4xl mb-4">Why Urban Stories?</h2>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Experience the unparalleled benefits of premium linen fabric.
+                Premium fabrics, curated styles, and a commitment to quality that sets us apart.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-              {/* Breathable */}
+              {/* Curated Fabrics */}
               <div className="text-center space-y-4">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-background shadow-sm">
-                  <Wind className="w-8 h-8 text-primary" />
+                  <Palette className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl">Breathable</h3>
+                <h3 className="text-xl">Curated Fabrics</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Natural airflow keeps you cool and comfortable even in the warmest climates.
+                  From breathable linens to premium imported cottons — we handpick every fabric for quality and feel.
                 </p>
               </div>
 
-              {/* Lightweight */}
+              {/* Imported Materials */}
               <div className="text-center space-y-4">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-background shadow-sm">
-                  <Feather className="w-8 h-8 text-primary" />
+                  <Globe className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl">Lightweight</h3>
+                <h3 className="text-xl">Imported Materials</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  Incredibly light fabric that feels like a second skin, perfect for all-day wear.
+                  Sourced from the world's best mills — fine cotton, linen blends, and exclusive imported fabrics.
                 </p>
               </div>
 
-              {/* Premium Fabric */}
+              {/* Crafted for Men */}
               <div className="text-center space-y-4">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-background shadow-sm">
-                  <Sparkles className="w-8 h-8 text-primary" />
+                  <Shirt className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl">Premium Quality</h3>
+                <h3 className="text-xl">Crafted for Men</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  100% pure linen that becomes softer and more luxurious with every wash.
+                  Every shirt is designed exclusively for men — tailored fits, refined collars, and versatile styles.
                 </p>
               </div>
             </div>
@@ -144,12 +144,12 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  At Urban Stories, we believe in the timeless appeal of quality craftsmanship. 
-                  Each linen shirt is carefully designed to offer the perfect balance of comfort and sophistication.
+                  At Urban Stories, we believe a great shirt is the foundation of every man's wardrobe. 
+                  We bring together linen, cotton, and the finest imported fabrics to create shirts that look and feel exceptional.
                 </p>
                 <p>
-                  Our commitment to premium materials and attention to detail ensures that every 
-                  piece tells a story of elegance, breathability, and enduring style.
+                  From casual weekends to sharp office looks, our collection is designed to keep you 
+                  comfortable, confident, and styled for every chapter of your story.
                 </p>
               </div>
               <Link to="/about">

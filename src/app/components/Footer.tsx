@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg">Urban Stories</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Premium linen clothing crafted for breathable luxury and timeless elegance.
+              Premium men's shirts in linen &amp; imported fabrics — crafted for style, comfort, and every occasion.
             </p>
             <div className="flex space-x-4 pt-2">
               <a href="#" className="hover:text-primary transition-colors" aria-label="Instagram">

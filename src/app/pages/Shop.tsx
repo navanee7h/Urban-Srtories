@@ -163,7 +163,7 @@ export default function Shop() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
             <h1 className="text-3xl md:text-4xl mb-4">Shop Collection</h1>
             <p className="text-muted-foreground max-w-2xl">
-              Explore our complete range of premium linen shirts. Each piece is crafted for breathability, comfort, and timeless style.
+              Explore our complete range of men's shirts in linen, cotton, and imported fabrics. Each piece is crafted for comfort, fit, and timeless style.
             </p>
           </div>
         </div>

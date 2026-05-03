@@ -6,7 +6,7 @@ const HOTSPOTS = [
   {
     id: 1,
     productId: '1',
-    name: 'Classic White Linen',
+    name: 'Classic White Shirt',
     price: '₹3,499',
     image: 'http://localhost:8000/media/products/shop_look_white.png',
     position: { top: '70%', left: '20%' }, // Left person chest
@@ -14,7 +14,7 @@ const HOTSPOTS = [
   {
     id: 2,
     productId: '3',
-    name: 'Navy Blue Linen',
+    name: 'Navy Blue Shirt',
     price: '₹3,599',
     image: 'http://localhost:8000/media/products/shop_look_navy.png',
     position: { top: '65%', left: '48%' }, // Center person chest
@@ -22,7 +22,7 @@ const HOTSPOTS = [
   {
     id: 3,
     productId: '5',
-    name: 'Olive Green Linen',
+    name: 'Olive Green Shirt',
     price: '₹3,799',
     image: 'http://localhost:8000/media/products/shop_look_olive.png',
     position: { top: '70%', left: '78%' }, // Right person chest
@@ -42,14 +42,14 @@ export default function ShopTheLook() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-medium tracking-tight mb-4">Shop The Look</h2>
-          <p className="text-muted-foreground text-lg">Click the red dots to shop exactly what they are wearing.</p>
+          <p className="text-muted-foreground text-lg">Click the dots to shop exactly what they're wearing.</p>
         </div>
 
         {/* Image Container with Relative positioning for hotspots */}
         <div className="relative max-w-6xl mx-auto rounded-lg overflow-visible group">
           <img 
             src="/images/shop_the_look.png" 
-            alt="Three stylish men wearing linen shirts"
+            alt="Three stylish men wearing premium shirts"
             className="w-full h-auto object-cover rounded-lg shadow-xl"
             style={{ minHeight: '400px', maxHeight: '700px' }}
           />

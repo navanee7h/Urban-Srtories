@@ -60,7 +60,7 @@ export default function MeasurementGuide() {
             </Link>
             <h1 className="text-3xl md:text-4xl mb-4">Measurement Guide</h1>
             <p className="text-muted-foreground max-w-2xl">
-              Follow these steps to take accurate measurements for your custom-tailored linen shirt.
+              Follow these steps to take accurate measurements for your custom-tailored shirt.
             </p>
           </div>
         </div>
